@@ -116,7 +116,7 @@
 
 ---
 
-![center 120%](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/epochal-time-model.png)
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel.002.png)
 
 ^ I was reminded of Parfit's discusion of identity when I heard Hickey talking about this, which is the conceptual model of change underlying the Clojure's concurrency primitives.
 
@@ -124,8 +124,13 @@
 
 ^ In Clojure there is a system of special reference types for representing identities, and immutable persistent data structures for representing values, and they have nice concurrency semantics.
 
+---
 
-^ I was thinking revisiting this recently whent thinking about the meaning of value types in Swift. Value types are ideal for expressing the idea of a value, an permanent snapshot of a moment. When people want a clear why to think about how to use structs and constants in their app architecture, I think the best thing to study is this model from Clojure. And a lot of recent talks about Swift have been essentially restating its model.
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel.003.png)
+
+^ So to continue the example, I am an _identity_. A snapshot recording the state of all my cells at some moment is a _value_. And we can imagine a function that describes the process of me changing as I get older.
+
+^ I was revisiting this recently when thinking about the meaning of value types in Swift. Value types are ideal for expressing the idea of a value, an permanent snapshot of a moment. When people want a clear why to think about how to use structs and constants in their app architecture, I think the best thing to study is this model from Clojure. And a lot of recent talks about Swift have been essentially restating its model.
 
 ---
 
