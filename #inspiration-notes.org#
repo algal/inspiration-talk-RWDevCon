@@ -1,0 +1,482 @@
+* specifications
+
+  2_200 to 2_500 words
+
+  yes, can have slides
+
+  Goals: beautiful, moving, informative
+
+* scribblings
+
+** Key Foci:
+
+focal points:
+
+- question: do you step into the transporter?
+
+- idea of numerical vs qualitiative identity
+
+- the idea of value vs 
+
+- the parallel:
+  - numerical identity    ~ object identity
+  - qualitative identity  ~ value equality
+
+
+- 
+
+
+
+** Questions
+
+
+** 
+
+*** What is a value?
+
+*** What is an object?
+
+*** what does it mean for one object to be the same as another?
+
+*** what does it mean for one value to equal another?
+
+*** Am I actually a software developer? or someone pretending to be one?
+
+*** Am I pretending not to be a sofware developer?
+
+*** Is this my real life?
+
+*** Should I feel good about this? Disappointed?
+
+*** grand analogies
+
+object identity  :  personal identity (physical criterion or psychological criterion)
+
+object state     :  things about you that may change
+object value     :  what you are at a snapshot in time.
+
+identity
+
+** thru lines
+
+*** This is X
+
+"This is X" He ....
+
+This is X, later.
+
+
+
+*** 
+
+
+
+** Identity
+
+   Object identity, my identity, your identity
+
+   Object identity, your identity
+
+** This is Derek Parfit
+
+   This is Derek Parfit
+
+   from All Souls College,
+
+   saw him talk 20 years ago when visiting Harvard
+
+   wine cellar under the street
+
+   quotation from Cowen
+
+   wild white messianic hair
+
+*** DP quotes
+
+****     
+    
+   #+begin_quote
+   When I believed that my existence was such a further fact, I seemed
+   imprisoned in myself. My life seemed like a glass tunnel, through
+   which I was moving faster every year, and at the end of which there
+   was darkness. When I changed my view, the walls of my glass tunnel
+   disappeared. I now live in the open air.
+   #+end_quote
+
+**** on all of history up to this point, if pos or neg
+    
+   #+begin_quote
+   I am weakly inclined to believe that the past has been in itself
+   worth it. But this may be wishful thinking.
+   #+end_quote
+   
+** This is Rich Hickey
+
+   This is Rich Hickey
+
+   speaking on Values of Values
+
+   C++ hacker. Time in wilderness. Alpha Geek.
+
+   Rich Feynman.
+
+** This is Andy Matuschak
+
+   This is Andy Matuschak
+
+   values of values
+
+   object of objects
+
+   alpha geek
+
+** Numerical vs Qualititive Identiy
+
+   numerically identical, qualitatively identical
+
+   two balls
+
+```The question is about numerical identity. To say that this and that
+are numerically identical is to say that they are one and the same:
+one thing rather than two. This is different from qualitative
+identity. Things are qualitatively identical when they are exactly
+similar. Identical twins may be qualitatively identical—there may be
+no telling them apart—but not numerically identical, as there are two
+of them: that's what makes them twins. A past or future person need
+not be, at that past or future time, exactly like you are now in order
+to be you—that is, in order to be numerically identical with you. You
+don't remain qualitatively the same throughout your life. You change:
+you get bigger or smaller; you learn new things and forget others; and
+so on. So the question is not what it takes for a past or future being
+to be qualitatively just like you, but what it takes for a past or
+future being to be you, as opposed to someone or something other than
+you.```
+
+** Transporter problem
+
+Transporter Problem
+- going to Mars
+- going to Earth
+same person vs not equal
+
+--
+
+Time is a transporter
+
+every moment changes you
+
+same person, but not equal
+
+"somewhere along the way, I mutated"
+
+** This is SF
+
+This is SF
+
+- I grew up here (picture as kid)
+
+- picture of SF then, now
+
+- semwehre along the way, SF mutated
+
+** Is this my real life?
+
+Feeling of unreality
+
+- Am I stell the real AG?
+- Is this still the real SF?
+- did I dide when I mutated?
+- am I a ghost of that AG?
+- how do you know if you're a ghost?
+
+** Is this the real SF?
+
+Is this the Disney/playground/ghost SF?
+Was I destroyed by mutation?
+
+** Am I an impostor?
+
+Impostor Syndrome
+
+- Feeling the face you present is not real
+- Minority and disadvnataged gropus
+- everyone individual is a minority of 1
+- every (self-involved) individual is a minority of 1
+
+** Sartre the first impostor
+ 
+original impostor syndrom
+
+This is Sartre.
+
+existentialism is the loneliness of radical choice, of being only an individual & feeling that your face is flase because social norms are constructed.
+
+Alienation from your own hand
+
+- Does RH feel aliented, feel real, impostor?
+
+** Lacan and the imaginary
+
+This is Lacan
+- idea of the imaginary
+- why clojure? why Haskell?
+- the imaginary you bring to what you're doing
+
+- "Swift is not an FPL"
+
+  - preserve your imaginary
+  - defend your identity
+  - don't let yourself muttated by time
+  - dont be destroyed
+  - "if I'm not alpha-geek, wtf am I?"
+
+
+Maggie Litton Podcast
+
+37m45s
+
+Lacan's three realms:
+- the imaginary
+- the symbolic
+- the real
+
+the imaginary -- world of images.
+
+identifying with something b/c of the way it looks. 
+
+39m03s
+
+"So I do think that there is a sense that some people they
+think that they want o build a rails app because that's what all the
+young entrepreniial types do and I'm a young entreprenurali type or I
+fancy myself that way."
+
+IMAGE
+"Or I'm pretty sure that we probably get some business because people
+say, 'I want to be like Rich Hickey. I'm really smart. I want to
+associate myself with the cutting edge. I want a Clojure app.' So all
+of these are things that don't necessarily have to do with the reality
+of whatever it is you wnat to accomplish, but it's something about the
+way things look, the image, or the reputation that they have in world
+motivates you to be like them. It's useful to know if that's
+influencing you in some way."
+
+SYMBOLIC
+"Using words and stories to make some kind of sense of the world"
+
+"That story is the symbolic order you assign to things. So a
+retrospective is an exmaple of that. So we're going to have a
+retrospective, and"
+
+
+** ID vs value in software objects
+
+ID vs Value in sw objects
+
+- "RH coited usage of identity to mean thing continuously existing thru time in the world"
+
+- Identity is to some degree a matter of perspective.
+
+- Snapshot of the me gives no sense that I am the output a casual
+  chain of me's going back to one tht wanted something else..
+
+** Two purposes of an ID field
+
+- lookup key
+
+  - the one thing that alone suffices to fund something in db
+
+  - SSN is a lookup key
+
+  - fully qualified name
+
+  - index in array
+
+- your uniqueness
+
+  - even two identical twins, one is Bob, the other is Frank
+
+  - ID field is a unqieu token that represents and guarantees and enforces your uniquness oas an entity-in-the-world
+
+** Feeling like an impostor
+     
+** Why do I like Clojure?
+
+CLJ FP provides way to re-connect my identity with my old values, old imaginary
+
+** Snapshot
+
+Clear distraction between what things me (immutable) what they were
+(immutable, what they will be (immutable)) and the flux that worse
+from one to another
+
+** This is Heraclitus
+
+This is Heraclitus
+
+
+  - cannot setp in the same rivier twice
+    - not same river
+    - not same you
+
+  - Heraclitus was a FP
+    
+  - military
+
+
+Quotes:
+
+
+"Ever-newer waters flow on those who step into the same rivers.""
+
+quoted by Plato:
+"All entities move and nothing remains still"
+
+"Everything changes and nothing remains still ... and ... you cannot step twice into the same stream"
+
+"We both step and do not step in the same rivers. We are and are not."
+
+** Time destroys us all
+
+Things fall apart
+ - pircture of Dead Poets Society kids
+ - graduating class into WWI
+ - B&W
+ - Lana del Ray Images / music
+ - The wistful mythis past, Gatsby
+
+** Reviews of Parfit's second b
+
+Tyler Cowen review of Derrk Parfit  -> feeling less real
+
+Does RH feel like now his lfe has become real
+ - new he's in Chap1
+ - the rest is a Prelude
+
+"For these reasons I see the biggest and most central part of the book as a failure, possibly wrong but more worryingly “not even wrong” and simply missing the questions defined by where the frontier — choice theory and not just philosophic ethics — has been for some time. - See more at: http://marginalrevolution.com/marginalrevolution/2011/07/on-what-matters-vol-i-review-of-derek-parfit.html#sthash.tOGuvq6q.dpuf
+
+"
+
+   
+** 
+
+** Do we survive living?
+
+When you're mutated too much, is it still you?
+
+- Darth Vader, more machine than man
+- Darth Vader, good still in you
+
+- Dread Pirate Roberts, Silk Road
+- Dread Pirate Roberts, Glen Park library
+  
+** Are we doing impressions?
+
+Derek Parfit at All Souls College (some .. at H)
+ - I also went  to Ox (photo of robes)
+ - am I doing a DP impression?
+ - Andy Matuschak et al., doing a Rich Hickey impression?
+
+** 
+
+Object identity: an object's ability to be distinguished from other objects
+
+or something besides its value
+
+- location in mmeory
+- casual history since creation
+
+** Eric Evans on entity vs value:
+
+Eric Evans, Software Engineering Radio, Episode 8, 7m15
+
+For example, the thing that most people love to talk about seems to be
+the distinction between entities and value objects. This by the way is
+not my original contribution. This distionction has been around for
+quite a while and has been written about in other books. And I think
+that it's gotten more attention in my book, and that's all to the
+good. But to distinguish between these two, basically one of them, the
+entity, revolves around identity and continuity, and not around the
+properties of the thing. So in a metaphor, if you think of a living
+person, there's almost no attribute of that person that exists
+throughout the lifespan of that person. And of course the entity that
+we associate with that person exists in fact long after they are dead
+and their body is gone. So there's no actual property that this person
+has.
+
+But there is an identity. And it ties together things that we
+think are important.
+
+So the same is true of objects and you may have lets say in your
+system, and some of these objects correspond to people, so that's an
+easy to think about. You may have a customer object and your customer
+object may have importance in the sales-related part of your
+software. You may track information about sales calls and historical
+sales volumes and so on. things that your sales people need to
+interact with this person. contact information. all these things are
+changing. This seems pretty straight-forward.
+
+In another part of your software you may be actually handling the
+service to this customer. You may need completely different
+information about that customer for the purpose of providing service
+to them than you did for trying to sell things to them. Historical
+sales is not relevant. The contact person you had there is not
+relevant. Because it's probably someone in a procurement role rather
+than an operational role. So you have a completely different model of
+this customer for the purposes of service.
+
+And yet it's the same entity.
+
+Contrast this to a value object. In a value object, if it's
+well-formed, you don't care about identity. There's no meaningful
+identity at all. A good example of a value object, kind of a canonical
+example of a value object, is color. If you want to describe the color
+of something, you say it's red, you say it's green. You don't care if
+the red color you were referring to yesterday is the same particular
+red that it is today. I mean, you care that it is the same color. but
+that is a value that you can describe. You don't care if it's the same red object.
+
+Even in terms of how you would handle implementation, do you care
+about history. when you change this object do you throw it away and
+get another one? The more that kind of thing you can do, having
+immutable objects that just are what they are, and when you no longer
+want them you just throw them away and get another one. Your system
+will be a lot easier to manage. Because you can make statements about
+these objects that are firm and always true statements, which you
+can't do about an entity in the same way. Entities are a lot harder to
+manage, and a lot of the meaning of a model comes from those value
+objects. People tend to confuse them with data transfer objects.
+
+(That's because of a naming conflict that was resolved quite recently.)
+
+That's true, that did aggravate the problem, but I think that naming
+conflict arose in part because people already confused the two
+concepts. Hopefully this rename will help to clarify things in
+peoples' minds. You could well have a data trasnfer object based on an
+entity. So you might send some data structure from one system to
+another, that represented some key information about your customer and
+along with the customer id and in the other system it would match that
+customer id up to the customer in that system and it would start to
+use that information in the way that that other system used customer
+information.
+
+Another distinction I made in that building block section, is I talked
+about repositories and factories and services. Anyway, you start
+making these distinctions and you start to have a model which has
+these objects in it, which are of recognaizable types. ANd someone
+knows some properties which they can trust about these objects. If I
+tell you it's a value object, you can assume all kinds of things. You
+can assume this object will not change. that it represnts some
+information about something, rather than the continuity of an
+identity. If I tell you that this is a repository, then it's probably
+an abstraction layer that hides database access of some kind. But you
+don't have to know the details of that database access to use the
+repository.
+
+
+
+* tasks
+
+** TODO reword to use SNAPSHOT everywhere
+
+** TODO re-draft CLojure epochal time model
