@@ -477,6 +477,6 @@ repository.
 
 * tasks
 
-** reword to use SNAPSHOT everywhere
+** TODO reword to use SNAPSHOT everywhere
 
-** 
+** TODO re-draft CLojure epochal time model

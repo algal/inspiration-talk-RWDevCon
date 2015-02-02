@@ -46,11 +46,11 @@
 
 ^ The transporter problem is intended to clarify ideas about personal identity.
 
-^ Remember, the transporter consists of a _Scanner_ and a _Replicator_. The Scanner *"destroys your brain and body"*, but records a snapshot of your entire physical state, which the Replicator uses to create a *"new brain and body exactly like yours"*.
+^ Remember, the transporter consists of a _Scanner_ and a _Replicator_. The Scanner *"destroys your brain and body"*. But it records your entire physical state as information, which the Replicator uses to create a *"new brain and body exactly like yours"*.
 
 ^ Basically, it's NSCoding but for your body.
 
-^ So the question is: are you willing to be transported? Do you push the green button? Is the transporter basically killing you, and creating a person physically just like you? Or is it just moving you, by moving your body? Is it the same you coming out of the transporter?
+^ So the question is: are you willing to be transported? Do you push the green button? Is the transporter basically killing you, and creating a new person just like you? Or is it just moving you, by moving your body? Is it the same you coming out of the transporter?
 
 ^^ You might think it's just moving you, but what if there was a malfunction and the scanner didn't destroy you, and the replicator created a copy, so now there's two of you. Which one is the real you? None of them? Both?
 
@@ -60,7 +60,7 @@
 
 # qualitatively identical
 
-^ One way things can be the same is if they are "qualitatively identical". This just means "exactly alike".
+^ One way things can be the same is if they are *"qualitatively identical"*. This just means "exactly alike".
 
 ---
 
@@ -84,7 +84,9 @@
 
 ![right 75%](/Users/alexis/workspace/RW/DevCon/inspiration/image-aging/old.png)
 
-^ The easiest example of this is just to consider that a thing is always the same as itself, even as time passes. Twelve year-old Fred Weasly is the same person as 18 year-old Fred Weasley. You are always the same as yourself.
+^ The easiest example of this is just to consider that a thing is always the same as itself, even as time passes. Twelve year-old Fred Weasly is the same person as 18 year-old Fred Weasley, just as you are always the same as yourself.
+
+^^ If you watched Fred Weasley age, you would see him change, but you would also see that it was the same person who was changing
 
 ^ So with this idea, we can restate the transporter problem. Remember, we suppose that the transporter *"preserves the exact state of every call"*. So, by definition, the person leaving the transporter is *qualitatively identitical* to you. The big question is if it's the _same_ you walking out -- if that person is _numerically identitical_.
 
@@ -94,9 +96,11 @@
 ![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-alexis/IMG_7274_square.jpeg)
 ![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-alexis/square_alexis_japan.jpg)
 
-^ That's actually a question about what kind of thing a *person* is. From inside, I feel like it's the same me through time, like the me trying to lift the pumpkin is the same as the me holding an umbrella in college, who is the same as the me standing here now. But *what fact* makes that feeling true?
+^ That's actually a question about what kind of thing a *person* is.
 
-^ Is it just physical continuity through space and time (like for a physical object like a rock)? Or is it the continuity of my memories, that I can remember holding the umbrella? (This is what John Locke believed.)
+^ From inside, I feel like it's the same me through time, like the me trying to lift the pumpkin is the same as the me holding an umbrella in college, who is the same as the me standing here now. But *what fact* makes that feeling true?
+
+^ Is it just my physical continuity through space and time (like for an object like a rock)? Or is it the continuity of my memories, that I can remember holding the umbrella? (This is what John Locke believed.)
 
 ^ Parfit considers many theories. I will not review those here. Instead I'd now like to show you the parallel I promised.
 
@@ -114,11 +118,12 @@
 
 ![center 120%](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/epochal-time-model.png)
 
-^ I was reminded of Parfit's discuttion of identity when I heard Hickey talking about this, which is the conceptual model underlying the Clojure's concurrency primitives.
+^ I was reminded of Parfit's discusion of identity when I heard Hickey talking about this, which is the conceptual model of change underlying the Clojure's concurrency primitives.
 
 ^ Hickey calls an "identity" any logical continuously existing thing in the world, like a person. Every identity has a "state" that changes thru time. At any single point in time, that state can be described by a "value", which is a snapshot of its state.
 
-^ In Clojure, An "identity" in the world is represented in software by a reference type, a variable a bit like a pointer. And as time passes, that reference is updated to point to a succession of values, represented via immutable persistent data structures. These structures also provides concurrency control.
+^ In Clojure there is a system of special reference types for representing identities, and immutable persistent data structures for representing values, and they have nice concurrency semantics.
+
 
 ^ I was thinking revisiting this recently whent thinking about the meaning of value types in Swift. Value types are ideal for expressing the idea of a value, an permanent snapshot of a moment. When people want a clear why to think about how to use structs and constants in their app architecture, I think the best thing to study is this model from Clojure. And a lot of recent talks about Swift have been essentially restating its model.
 
