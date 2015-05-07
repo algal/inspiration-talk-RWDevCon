@@ -1,8 +1,7 @@
 
 ### Identity II
 
-### Alexis Gallagher
-
+### @alexisgallagher
 
 ---
 
@@ -34,8 +33,6 @@
 
 ^ I first heard Parfit speak 20 years ago. In person, Parfit has exactly the distracted, unworldly air, and the DRAMATIC HAIR that you would expect of a legendary moral philosopher.
 
-^^ He is based at a special college in Oxford, All Souls College, which takes no students. All the professors have lifetime appointments. The college provides them food and board. (They are supposed to have one of the best wine cellars in the city.) And all they do is think.
-
 ^ You could say he's sort of an ALPHA NERD in the world of moral philosophy.
 
 ---
@@ -50,9 +47,7 @@
 
 ^ Basically, it's NSCODING BUT FOR YOUR BODY.
 
-^ So the question is: are you happy to be transported? Do you push the green button? Is the transporter basically killing you, and creating a new person just like you? Or is it just moving you, by moving your body? IS IT THE SAME YOU COMING OUT of the transporter?
-
-^^ You might think it's just moving you, but what if there was a malfunction and the scanner didn't destroy you, and the replicator created a copy, so now there's two of you. Which one is the real you? None of them? Both?
+^ So the question is: are you happy to be transported? Do you push the green button? Is the transporter basically killing you, and creating a new person? Or is it just moving you, by moving your body? IS IT THE SAME YOU COMING OUT of the transporter?
 
 ^ This comes down to WHAT MAKES TWO PERSONS THE SAME.
 
@@ -88,11 +83,14 @@
 
 ^ The easiest example of this is just to consider that A THING IS ALWAYS THE SAME AS ITSELF, even as time passes. Twelve year-old Fred Weasly is the same person as 18 year-old Fred Weasley, just as you are always the same as yourself.
 
-^^ If you watched Fred Weasley age, you would see him change, but you would also see that it was the same person who was changing
+
+---
+
+![fit](/Users/alexis/workspace/RW/DevCon/inspiration/image-transporter/transporter3c.jpg)
 
 ^ So with this idea, we can RESTATE THE TRANSPORTER PROBLEM. Remember, we suppose that the transporter "preserves the exact state of every call". So, by definition, the person leaving the transporter is qualitatively identitical to you.
 
-^ The big question is if it's THE SAME PERSON walking out -- if it is you walking out -- if that person is _numerically identitical_ to you.
+^ The big question is if it's THE SAME PERSON walking out -- if it is you walking out -- if that person is NUMERICALLY IDENTITICAL TO YOU.
 
 ---
 
@@ -108,7 +106,7 @@
 
 ^ Is it just my physical continuity through space and time (like for an object like a rock)? Or is it the continuity of my memories, that I can remember holding the umbrella? (This is what John Locke believed.)
 
-^ Parfit considers many theories. I will not review those here. Instead I'd now like to SHOW YOU THE PARALLEL I promised.
+^ Parfit considers many theories. I will not review them all. Instead I'd now like to SHOW YOU THE PARALLEL I promised.
 
 ---
 
@@ -116,31 +114,35 @@
 
 ^ But first -- this is RICH HICKEY. Hickey is the creator of clojure, a very cool lisp dialect that runs on the Java Virtual Machine.
 
-^^ I think I started hearing about Clojure about 3-4 years ago. In 2003 Paul Graham wrote an essay "Beating the Averages", where he described Lisp as a secret weapon for smart people, and basically said that it marked the maximal point on a continuum of language power. Whether or not it's true, this idea is of course enormously appealing to elitists everywhere, and it helped to re-awaken a general interest in Lisps.
-
 ^ Like Parfit, Rich Hickey also has DRAMATIC HAIR.
 
 ^ You could say he's an ALPHA NERD in the world of somewhat esoteric programming langauges.
 
 ---
 
-![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel.002.png)
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel3.001.png)
 
 ^ I was reminded of Parfit's discusion of identity when I heard Hickey talking about this, which is CLOJURE'S MODEL OF TIME.
 
-^ Hickey calls an "identity" any CONTINUOUSLY EXISTING THING in the world, like a person.
+^ Hickey uses "identity" as a noun for any CONTINUOUSLY EXISTING THING in the world, like a person.
 
-^ Every identity has a "state" that changes thru time. At any point in time, that state can be described by a "value", which is a SNAPSHOT OF ITS STATE.
-
-^ Clojure has a system of special reference types for representing identities and immutable persistent data structures for representing values.
+^ Every identity has a "state" that changes thru time. A value captures a SNAPSHOT OF ITS STATE at one moment.
 
 ---
 
-![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel.003.png)
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel3.002.png)
 
-^ So using this lingo, I am an _identity_. A snapshot recording the state of all my cells at some moment is a _value_. And we can imagine a function that describes the process of me changing as I get older.
+^ A value is just like the RECORD CAPTURED BY THE SCANNER ON EARTH, the snapshot of a moment.
 
-^ I was revisiting this recently when thinking about the meaning of value types in Swift. Value types are ideal for expressing the idea of a value, an permanent snapshot of a moment. When people want a clear why to think about how to use structs and constants in their app architecture, I think the best thing to study is this model from Clojure. And a lot of recent talks about Swift have been essentially restating its model.
+---
+
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel3.003.png)
+
+^ People wonder what value types are for in Swift. Value types are GREAT FOR EXPRESSING VALUES.
+
+^ Use a REFERENCE-TYPE TO DEFINE AN OBJECT REPRESENTING A THING in the world, one thing that might be REFERRED TO by many names.
+
+^ Use a VALUE-TYPE TO REPRESENT THE THING'S QUALITIES, ITS VALUE.
 
 ---
 
@@ -148,19 +150,15 @@
 
 ## numerically identical  : qualitatively identical
 ### ::
-^^ ## "one and the same" : "exactly alike"
-^^ ## ::
 ## same identity        : equal value
 
 ^ "numerically identical" is to "qualitatively identical" as "same identity" is to "equal value".
-
-^ You can take that to the bank.
 
 ---
 
 ![center 200%](/Users/alexis/workspace/RW/DevCon/inspiration/image-EricEvans/Domain-driven-Design-Tackling-Complexity-in-the-Heart-of-Software.jpg)
 
-^ Later I learned that Clojure's model ECHOES EARLIER WORK.
+^ Later I learned that the Clojure model ECHOES EARLIER WORK.
 
 ^ This is Eric Evans, who wrote a book on Domain-Drive Design, and describes this as the DISTINCTION BETWEEN ENTITIES AND VALUE OBJECTS. And Evans says he's also re-stating earlier ideas.
 
@@ -172,25 +170,17 @@
 
 # [fit] identity
 
-^^ ## What We Believe Ourselves To Be
-
-^^ ### as stable as you choose
-
 ^ Well, okay: WHAT IS IT THAT IS STAYING THE SAME? How should we define identity? To be honest, I'm not sure.
 
 ^ I find that the Clojure model and the Parfit's model are both CLEAR WHEN THEY TALK ABOUT THE MOMENTARY SNAPSHOT of a thing -- about values, or qualititative identity.
 
 ^ But they both get SLIPPERY WHEN THEY TALK ABOUT ABOUT IDENTITIY, about what stays the same when everything changes.
 
-^^ I have found the Clojure model of identity confusing. At times Hickey uses the term "identity" to mean *"a stable logical entity associated with a series of different values over time"*. But people use "identity" as if it means simply a kind of a language construct, any thing that holds or points to something else.
-
-^^ Similarly, all the complexity of Parfit's account is also in this numerical identity part. In particular, he dismisses a version of identity that strikes me as quite releant: "Suppose that an artist paints a self-portrait and then, by repainting, turns this into a portrait of his father. Even though these portraits are more similar than a caterpillar and a butterfly, they are not stages in the continued existence of a single painting. The self-portrait is a painting that the artist destroyed. In a general discussion of identity, we would need to explain why the requirement of physical continui ty differs in such ways for different kinds of thing."
-
 ^ One takeaway is that IDENTITY IS A FUNDAMENTALLY SUBTLE AND SLIGHTLY PROBLEMATIC concept.
 
 ^ The Stanford Encyclopedia of Philosophy has MORE THAN 10K WORDS on identity in general, and another 10k words on personal identity. So there's something there.
 
-^ For instance, we all get the "is-a" vs "has-a" in OO design. But that's a bit trivial. I suspect it would be MORE VALUABLE TO US, for domaiin modeling, if we became as sensitive to the distinction between the qualities of a thing, and the identity of a thing. 
+^ That's why this parallel speaks to me. It tells me that the NIGGLING PUZZLES OF OUR WORK ARE ACTUALLY PROTRUDING EDGES OF PROFOUND, SUBTLE ISSUES.
 
 ---
 
@@ -224,21 +214,19 @@
 
 ---
 
-^ BEFORE I SAY MORE, let me show you one more picture.
+^ BEFORE I SAY MORE, let me show you one more photo.
 
-^ Does anyone recognize who this is?
+^ Does anyone recognize this man?
 
 ![center 230%](/Users/alexis/workspace/RW/DevCon/inspiration/face-feynman/Richard-feynman.jpg)
 
-^ Yes, this is RICHARD FEYNMAN, a notable physicist. In addition to his physics he wrote a couple books of anecdotes, which made him famous. He won a Nobel prize.
+^ Yes, this is RICHARD FEYNMAN, a Nobel prize-winning physicist. He also wrote a couple books of anecdotes, which made him famous.
 
-^ So, another ALPHA NERD WITH WILD HAIR.
+^ And, of course, he's another ALPHA NERD WITH DRAMATIC HAIR.
 
 ^ The last time I lived in SF, I was in high school, and at that time I was 100% obsessed with physics, and I THOUGHT FEYNMAN WAS THE COOLEST thing.
 
 ^ So part of the reason I felt unreal in SF was that SF was infused with child-Alexis-studying-physics, while I was grown-Alexis-building-software. And this felt disturbing. 
-
-^^ Feynman on computers: "There is a computer disease that anybody who works with computers knows about. It's a very serious disease and it interferes completely with the work. The trouble with computers is that you 'play' with them! They are so wonderful. You have these switches - if it's an even number you do this, if it's an odd number you do that - and pretty soon you can do more and more elaborate things if you are clever enough, on one machine.
 
 ---
 
@@ -268,43 +256,35 @@
 
 ^ Or is that the same thing?
 
-^ Look at these CT scan of a caterpillar in its chrysalis. I think if you asked the caterpillar if it wanted to do this, it would probably say no thank you!
-
-^^ http://www.zmescience.com/research/caterpillar-butterfly-metamorphosis-ct-3d-scan-65054/
+^ Look at these CT SCAN OF A CATERPILLAR in its chrysalis. I think if you asked the caterpillar if it wanted to do this, it would probably say no thank you!
 
 ---
 
 ![center 80%](/Users/alexis/workspace/RW/DevCon/inspiration/image-disappointment/Photo 19-01-2015 16 06 58 cleaned.png)
 
-^ Frustration and DISAPPOINTMENT IS ALSO PART OF THIS.
+^ Frustration and DISAPPOINTMENT IS ALSO PART OF THIS STORY.
 
 ^ I'm sure IF I MET MY 16-YEAR OLD SELF, he'd ask "Wait, you're not a physicist?!"
 
-^ On the other hand, he'd also think iPhones were pretty wonderful. And when I was 16, they didn't exist, so it's HARD TO SAY HE SHOULD BE IN CHARGE.
+^ On the other hand, he'd also think iPhones were pretty wonderful. And when I was 16, they didn't exist. In general, it's HARD TO SAY HE HAD ALL THE INFORMATION HE NEEDED.
 
 ---
 
 ![fit](/Users/alexis/workspace/RW/DevCon/inspiration/image-impostor/14991689529_9c956f21e2_h_croppedwide.jpeg)
 
-^ This reminds me of IMPOSTOR SYNDROME, the feeling that you're a phony, that you're only pretending to know what you're doing.
+^ This also reminds me of IMPOSTOR SYNDROME, the feeling that you're only pretending to know what you're doing.
 
-^ I've seen this described as a problem afflicting under-represented groups but I believe it's a universal part of the human condition.
+^ For instance, personally, roughly every 4-6 months, I find myself feeling frustrated that I do not even understand some basic issue about software, and paranoid and afraid that I SHOULD REALLY KNOW WHAT I'M DOING by now.
 
-^ For instance, personally, roughly every 4-6 months, I find myself feeling frustrated and embarrassed that I do not even understand the basics of software, and feeling that I REALLY DON'T REALLY KNOW WHAT I'M DOING and I should by now.
+^ This is probably because every 4-6 months I AM WORKING ON SOMETHING SUBTANTIALLY NEW TO ME, so I'm often encountering areas where I am learning.
 
-^ This is probably because EVERY 4-6 MONTHS I AM WORKING ON SOMETHING SUBTANTIALLY NEW TO ME. But that doesn't change the feeling. So, every time, I need to remind myself I'm probably not an idiotn even though I like one.
+^ But that doesn't change the feeling. So, every time, I need to remind myself I'm probably not an idiot, even if I feel like one.
 
-^ But part of me does wonder, would I feel more real if I had dramatic hair and lived in a black and white photo like one of these alpha nerds?
+^ But part of me does wonder, would I FEEL MORE REAL IF I HAD DRAMATIC HAIR AND LIVED IN A BLACK AND WHITE photo?
 
-^ What does it feel like inside these photos?
+^ These alpha nerd snapshots do not show what it FEELS LIKE INSIDE THE SNAPSHOTS.
 
-^ I don't know. The snapshots do not show it.
-
-^ But even Feynman, in his books, writes about a period of feeling like an impostor, of being unable to meet expectation, and how to avoid it he'd run away to the library to read the fairytales stories of 1001 nights.
-
-^^ After "Reasons and Persons" Parfit spent about twenty years working on his next book, "On What Matters". Reviews were less positive. One reviewer wrote: "For these reasons I see the biggest and most central part of the book as a failure, possibly wrong but more worryingly “not even wrong”..." Did Parfit feel less like the real Parfit after reading that?
-
-^^ Or how does Hickey look on the decades when he was doing C++ and Java, before inventing Clojure? Does he look at that period as the prelude, the moment before his real professional career started?
+^ But even Feynman, in his books, writes about a period of feeling like an impostor, of being unable to meet expectation, and hiding in the library to read 1001 nights.
 
 ---
 
@@ -318,7 +298,7 @@
 
 ^ In the world, we IMPOSE IDENTITY ON THINGS by deciding to see them as connected. 
 
-^ And it's not so different on a personal level. We tell stories abotu ourselves to tie our lives together into one thing. So we feel about as coherent as decide to feel.
+^ And it's not so different in our hearts. We tell stories abtou ourselves to tie our lives together into one thing. So we feel about as coherent as we decide to feel.
 
 ---
 
@@ -338,13 +318,13 @@
 
 ^ Claim 3: time is a transporter
 
-^ Whatever your wishes, you will change. You will change a lot. And then, you will die.
+^ Whatever your wishes, you will change. You will change a lot. And eventually, you will die.
 
 ^ So there's no use resisting change, because it is still happening.
 
-^ Every moment, the atoms inside you are being recycled and replaced. You are being destroyed and re-created. You are changing.
+^ Every moment, the cells inside you are being recycled and replaced. You are being destroyed and re-created. You are changing.
 
-^ Even if you do not step into a tranporter, time is a transporter, and it is destroying you and re-creating you at every moment.
+^ Even if you do not step into a tranporter, TIME IS A TRANSPORTER, and it is destroying you and re-creating you at every moment.
 
 ---
 
@@ -352,23 +332,6 @@
 
 ^ So my advice, which is A BIT CHEESY BUT I THINK I BELIEVE IT, is
 
-^ step into the transporter, PRESS THE GREEN BUTTON, and keep moving forward into the future.
+^ Step into the transporter, PRESS THE GREEN BUTTON, go somewhere new, go to Mars, and keep moving forward into the future. Because you have to anyway.
 
----
-
-![center 125%](/Users/alexis/workspace/RW/DevCon/inspiration/face-sartre/Jean-Paul_Sartre_FP.jpg)
-
-^ This is Sartre
-
-^ Sartre even managed to feel like his own hands were unreal: "“I feel my hand. I am these two beasts struggling at the end of my arms. My hand scratches one of its paws with the nail of the other paw; I feel its weight on the table which is not me. It's long, long, this impression of weight, it doesn't pass. There is no reason for it to pass. It becomes intolerable ... I draw back my hand and put it in my pocket; but immediately I feel the warmth of my thigh through the stuff. I pull my hand out of my pocket and let it hang against the back of the chair. Now I feel a weight at the end of my arm. It pulls a little, softly, insinuatingly it exists. I don't insist: no matter where I put it it will go on existing; I can't suppress it, nor can I suppress the rest of my body, the sweaty warmth, which soils my shirt, nor all this warm obesity which turns lazily, as if someone were stirring it with a spoon, nor all the sensations going on inside, going, coming, mounting from my side to my armpit or quietly vegetating from morning to night, in their usual corner.”"
-
----
-
-^ This is Heraclitus
-
-![center 35%](/Users/alexis/workspace/RW/DevCon/inspiration/image-heraclitus/Utrecht_Moreelse_Heraclite.JPG)
-
-^ He was born in the 6th century BC (535 BC). He is most famous for leaving behind cryptics fragments of a philosophy
-
-^ "We both step and do not step in the same rivers. We are and are not."
 

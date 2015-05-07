@@ -372,3 +372,9 @@
 
 ^ "We both step and do not step in the same rivers. We are and are not."
 
+---
+
+![fill](/Users/alexis/workspace/RW/DevCon/inspiration/image-clojure-epochal/ClojureEpochalModel3.004.png)
+
+^ If you want to follow the Clojure module, use a PURE FUNCTION TO REPRESENT TIME, a pure function which computes the state from the current state.
+
